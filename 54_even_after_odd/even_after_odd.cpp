@@ -71,7 +71,7 @@ Node *evenAfterOdd(Node *head)
             evenFound = true;
         }
         
-        if (current->data % 2 == 1 && lastOdd == NULL && lastEven != NULL) {
+        if (current->data % 2 == 1) {
             // cout << "found an odd. lastOdd: " << current->data << " lastEven: " << lastEven->data << endl;
             // means we haven't gotten a odd till yet
             // but have seen an even
