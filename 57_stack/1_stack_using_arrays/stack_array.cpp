@@ -1,16 +1,18 @@
 template <typename T>
 class Stack {
     T *data;
-    int stackSize = 0;
-    int capacity = 5;
+    int size;
+    int capacity;
     
 public:
     Stack() {
+        capacity = 5;
         data = new T[capacity];
+        size = 0;
     }
     
     void push(T element) {
-        if (stackSize == capacity) {
+        if (size == capacity) {
             T *newData = new T[capacity*2];
             for (int i = 0; i < capacity; i++) {
                 newData[i] = data[i];
@@ -18,12 +20,12 @@ public:
             capacity *= 2;
             data = newData;
         }
-        data[stackSize] = element;
-        stackSize++;
+        data[size] = element;
+        size++;
     }
     
     bool isEmpty() {
-        return stackSize == 0;
+        return size == 0;
     }
     
     T pop() {
@@ -31,18 +33,18 @@ public:
             return 0;
         }
         
-        T element = data[stackSize-1];
-        stackSize--;
+        T element = data[size-1];
+        size--;
         return element;
     }
     
     T top() {
-        T element = data[stackSize-1];
+        T element = data[size-1];
         return element;
     }
 
-    int size() {
-        return stackSize;
+    int getSize() {
+        return size;
     }
   
 };

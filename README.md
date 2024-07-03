@@ -1,11 +1,11 @@
 # 🍵 Some basic C++ programs
 
 ### These are some programs I make while I learn C++.
-`Last Updated: 04 Feb'24`
+`Last Updated: 03 Jul'24`
 
-- Total files: `95`
-- Total lines: `3,324`
-- Total characters: `45,903`
+- Total files: `108`
+- Total lines: `4,992`
+- Total characters: `81,738`
 
 ### List of all programs:
   - [Hello World](1_hello_world/helloWorld.cpp)
@@ -80,6 +80,7 @@
     - [Check Palindrome](35_character_arrays/2_check_palindrome/palindrome.cpp)
     - [Trim Spaces](35_character_arrays/3_trim_spaces/trim.cpp)
     - [All Substrings](35_character_arrays/4_all_substrings/substrings.cpp)
+    - [String To Numbers](35_character_arrays/5_string_to_numbers/string_to_numbers.cpp)
   - 2d Arrays
     - [Column Wise Sum](36_2d_arrays/1_column_wise_sum/colsum.cpp)
     - [Printing 2d Array](36_2d_arrays/2_printing_2d_array/print.cpp)
@@ -117,4 +118,18 @@
     - [Merge Sort](52_linked_list/2_merge_sort/merge_sort_ll.cpp)
     - [Reverse Recursive](52_linked_list/3_reverse_recursive/reverse_rec.cpp)
     - [Reverse Iterative](52_linked_list/4_reverse_iterative/reverse_iter.cpp)
+    - [Swap Nodes](52_linked_list/5_swap_nodes/swap_nodes.cpp)
+    - [Rotate Linked List](52_linked_list/6_rotate_linked_list/rotate.cpp)
   - [Pascals Triangle](52_pascals_triangle/pascals.cpp)
+  - [Double Linked List Palindrome](53_double_linked_list_palindrome/palindrome.cpp)
+  - [Even After Odd](54_even_after_odd/even_after_odd.cpp)
+  - Ieee Encode
+    - [Maximum Profit](55_ieee_encode/2_maximum_profit/maxprofit.cpp)
+  - [Sort 01](56_sort_01/sort_01.cpp)
+  - Stack
+    - [Stack Using Arrays](57_stack/1_stack_using_arrays/stack_array.cpp)
+    - [Stack Using Ll](57_stack/2_stack_using_ll/stack_ll.cpp)
+  - Queue
+    - [Queue Using Arrays](58_queue/1_queue_using_arrays/queue_arrays.cpp)
+    - [Queue Using Ll](58_queue/2_queue_using_ll/queue_ll.cpp)
+    - [Reversing A Queue](58_queue/3_reversing_a_queue/reverse_queue.cpp)
