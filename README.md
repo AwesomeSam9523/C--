@@ -1,11 +1,11 @@
 # 🍵 Some basic C++ programs
 
 ### These are some programs I make while I learn C++.
-`Last Updated: 03 Jul'24`
+`Last Updated: 04 Jul'24`
 
-- Total files: `108`
-- Total lines: `4,992`
-- Total characters: `81,738`
+- Total files: `112`
+- Total lines: `5,149`
+- Total characters: `84,523`
 
 ### List of all programs:
   - [Hello World](1_hello_world/helloWorld.cpp)
@@ -133,3 +133,8 @@
     - [Queue Using Arrays](58_queue/1_queue_using_arrays/queue_arrays.cpp)
     - [Queue Using Ll](58_queue/2_queue_using_ll/queue_ll.cpp)
     - [Reversing A Queue](58_queue/3_reversing_a_queue/reverse_queue.cpp)
+  - Trees
+    - [Tree Node](59_trees/1_tree_node/TreeUse.cpp)
+    - [Level Wise Input](59_trees/2_level_wise_input/TreeInput.cpp)
+    - [Level Wise Printing](59_trees/3_level_wise_printing/TreePrint.cpp)
+    - [Number Of Nodes](59_trees/4_number_of_nodes/number_of_nodes.cpp)
