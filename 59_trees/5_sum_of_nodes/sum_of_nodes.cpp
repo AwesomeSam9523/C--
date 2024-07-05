@@ -2,10 +2,10 @@
 #include "../TreeNode.h"
 using namespace std;
 
-int numberOfNodes(TreeNode<int>* root) {
-    int sum = 1;
+int sumOfNodes(TreeNode<int>* root) {
+    int sum = root->data;
     for (auto child : root->children) {
-        sum += numberOfNodes(child);
+        sum += sumOfNodes(child);
     }
 
     return sum;
@@ -13,6 +13,6 @@ int numberOfNodes(TreeNode<int>* root) {
 
 int main() {
     TreeNode<int>* root = takeInputLevelWise();
-    cout << numberOfNodes(root) << endl;
+    cout << sumOfNodes(root) << endl;
     return 0;
 }

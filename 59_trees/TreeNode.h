@@ -11,6 +11,12 @@ public:
     TreeNode(T data) {
         this->data = data;
     }
+
+    ~TreeNode() {
+        for (auto child : this->children) {
+            delete child;
+        }
+    }
 };
 
 TreeNode<int>* takeInputLevelWise() {

@@ -1,11 +1,11 @@
 # 🍵 Some basic C++ programs
 
 ### These are some programs I make while I learn C++.
-`Last Updated: 04 Jul'24`
+`Last Updated: 05 Jul'24`
 
-- Total files: `112`
-- Total lines: `5,149`
-- Total characters: `84,523`
+- Total files: `115`
+- Total lines: `5,230`
+- Total characters: `85,712`
 
 ### List of all programs:
   - [Hello World](1_hello_world/helloWorld.cpp)
@@ -138,3 +138,6 @@
     - [Level Wise Input](59_trees/2_level_wise_input/TreeInput.cpp)
     - [Level Wise Printing](59_trees/3_level_wise_printing/TreePrint.cpp)
     - [Number Of Nodes](59_trees/4_number_of_nodes/number_of_nodes.cpp)
+    - [Sum Of Nodes](59_trees/5_sum_of_nodes/sum_of_nodes.cpp)
+    - [Num Of Leaf Nodes](59_trees/6_num_of_leaf_nodes/count_leaf_nodes.cpp)
+    - [Ways Of Printing](59_trees/7_ways_of_printing/printing_tree.cpp)
