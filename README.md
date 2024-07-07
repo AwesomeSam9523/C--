@@ -3,9 +3,9 @@
 ### These are some programs I make while I learn C++.
 `Last Updated: 07 Jul'24`
 
-- Total files: `117`
-- Total lines: `5,304`
-- Total characters: `86,947`
+- Total files: `119`
+- Total lines: `5,426`
+- Total characters: `89,289`
 
 ### List of all programs:
   - [Hello World](1_hello_world/helloWorld.cpp)
@@ -134,6 +134,8 @@
     - [Queue Using Ll](58_queue/2_queue_using_ll/queue_ll.cpp)
     - [Reversing A Queue](58_queue/3_reversing_a_queue/reverse_queue.cpp)
   - Trees
+    - [Next Larger Node](59_trees/10_next_larger_node/next_larger.cpp)
+    - [Second Largest Node](59_trees/11_second_largest_node/second_largest_node.cpp)
     - [Tree Node](59_trees/1_tree_node/TreeUse.cpp)
     - [Level Wise Input](59_trees/2_level_wise_input/TreeInput.cpp)
     - [Level Wise Printing](59_trees/3_level_wise_printing/TreePrint.cpp)

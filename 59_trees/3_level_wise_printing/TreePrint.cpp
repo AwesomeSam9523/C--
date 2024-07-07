@@ -28,6 +28,7 @@ void printTreeLevelWise(TreeNode<int>* root) {
 }
 
 int main() {
-
+    auto root = takeInputLevelWise();
+    printTreeLevelWise(root);
     return 0;
 }
